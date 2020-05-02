@@ -11,6 +11,8 @@
     width: 100vw;
     padding: 2rem;
     animation: .3s pull-in;
+    position: fixed;
+    bottom: 0;
   }
 
   @keyframes pull-in {
