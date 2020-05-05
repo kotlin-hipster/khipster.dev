@@ -245,7 +245,7 @@
 
 		<a href="https://asciinema.org/a/dvESXUMGHqxCORGqpz1294kf6" target="_blank" class="button ascii"> Demo </a>
 
-		<a href="https://twitter.com/kotlin-hipster" target="_blank" class="button tw"> Twitter </a>
+		<a href="https://twitter.com/kotlinhipster" target="_blank" class="button tw"> Twitter </a>
 	</div>
 
 	<div class="footer">
