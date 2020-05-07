@@ -249,6 +249,6 @@
 	</div>
 
 	<div class="footer">
-		created with &nbsp; <a class="footer-link" href="https://www.jhipster.tech">JHipster</a>
+		created with &nbsp; <a class="footer-link" href="https://www.jhipster.tech" rel="noreferrer" target="_blank">JHipster</a>
 	</div>
 </section>
