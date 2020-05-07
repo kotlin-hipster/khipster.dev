@@ -240,12 +240,12 @@
 	</div>
 
 	<div class="links">
-		<a href="https://github.com/jhipster/jhipster-kotlin" target="_blank" text="GitHub" class="button gh"> GitHub
+		<a href="https://github.com/jhipster/jhipster-kotlin" target="_blank" text="GitHub" class="button gh" rel="noreferrer"> GitHub
 		</a>
 
-		<a href="https://asciinema.org/a/dvESXUMGHqxCORGqpz1294kf6" target="_blank" class="button ascii"> Demo </a>
+		<a href="https://asciinema.org/a/dvESXUMGHqxCORGqpz1294kf6" target="_blank" class="button ascii" rel="noreferrer"> Demo </a>
 
-		<a href="https://twitter.com/kotlinhipster" target="_blank" class="button tw"> Twitter </a>
+		<a href="https://twitter.com/kotlinhipster" target="_blank" class="button tw" rel="noreferrer"> Twitter </a>
 	</div>
 
 	<div class="footer">
