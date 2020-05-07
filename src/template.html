@@ -3,9 +3,19 @@
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
-	<meta name='theme-color' content='#333333'>
+	<meta name='theme-color' content='#F6891F'>
+	<meta name="Description" content='KHipster site'>
 
 	%sapper.base%
+	
+	
+	<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+	<link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#F6891F">
+	<meta name="application-name" content="khipster"/>
+	<meta name="msapplication-TileColor" content="#F6891F" />
+	<meta name="theme-color" content="#F6891F">
 
 	<link rel='stylesheet' href='global.css'>
 	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
@@ -29,5 +39,18 @@
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
 	%sapper.scripts%
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165286246-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-165286246-1');
+	</script>
+
+
 </body>
 </html>
