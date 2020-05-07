@@ -123,14 +123,14 @@
 	}
 
 	.tw {
-		border: 1px solid #00acee;
-		color: #00acee;
+		border: 1px solid rgb(29, 161, 242);
+		color: rgb(29, 161, 242);
 	}
 
 	.tw:hover {
 		color: #fff;
-		background-color: #00acee;
-		border: 1px solid #00acee;
+		background-color: rgb(29, 161, 242);
+		border: 1px solid rgb(29, 161, 242);
 	}
 
 	.ascii {
