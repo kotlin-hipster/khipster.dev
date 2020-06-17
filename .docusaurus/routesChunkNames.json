@@ -1,18 +1,18 @@
 {
   "/": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99"
+    "component": "c4f5d8e4"
   },
   "/docs": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---docs-098-944",
-    "content": "content---docsc-6-b-c15"
+    "component": "1be78505",
+    "docsMetadata": "098a5b1b",
+    "content": "c6bd7e46"
   },
   "/docs/:route": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---docs-route-20-a-f24"
+    "component": "1be78505",
+    "docsMetadata": "20ac7829"
   },
   "/docs/gettingStarted": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docsc-6-b-c15"
+    "component": "17896441",
+    "content": "c6bd7e46"
   }
 }

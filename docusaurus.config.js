@@ -12,6 +12,11 @@ module.exports = {
       content:
         '⭐️ If you like KHipster, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/jhipster/jhipster-kotlin">GitHub</a>! ⭐️',
     },
+    googleAnalytics: {
+      trackingID: 'UA-165286246-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'KHipster',
       logo: {
@@ -79,6 +84,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Sendilkumarn. Built with Docusaurus.`,
     },
   },
+  plugins: ['@docusaurus/plugin-google-analytics'],
   presets: [
     [
       '@docusaurus/preset-classic',
