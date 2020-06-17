@@ -84,7 +84,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Sendilkumarn. Built with Docusaurus.`,
     },
   },
-  plugins: ['@docusaurus/plugin-google-analytics'],
+  plugins: [require.resolve('@docusaurus/plugin-google-analytics')],
   presets: [
     [
       '@docusaurus/preset-classic',
