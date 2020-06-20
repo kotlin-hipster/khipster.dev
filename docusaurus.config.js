@@ -9,6 +9,9 @@ module.exports = {
   themeConfig: {
     image: 'img/khip.png',
     twitterImage: 'img/khip.png',
+    twitterImageSrc: 'img/khip.png',
+    twitterSite: '@kotlinhipster',
+    twitterCreator: '@sendilkumarn',
     imageAlt: 'Kotlin Hipster Logo',
     announcementBar: {
       id: 'supportus',
