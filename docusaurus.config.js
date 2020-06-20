@@ -8,6 +8,7 @@ module.exports = {
   projectName: 'khipster.dev',
   themeConfig: {
     image: 'img/khip.svg',
+    twitterImage: 'img/khip.svg',
     imageAlt: 'Kotlin Hipster Logo',
     announcementBar: {
       id: 'supportus',
