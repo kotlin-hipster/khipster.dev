@@ -7,8 +7,9 @@ module.exports = {
   organizationName: 'sendilkumarn',
   projectName: 'khipster.dev',
   themeConfig: {
-    image: 'img/khip.png',
-    twitterImage: 'img/khip.png',
+    image: 'img/khip.png?1111',
+    ogImage: 'img/khip.png?1111',
+    twitterImage: 'img/khip.png?1111',
     imageAlt: 'Kotlin Hipster Logo',
     announcementBar: {
       id: 'supportus',
@@ -87,7 +88,17 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Sendilkumarn. Built with Docusaurus.`,
     },
   },
-  plugins: [require.resolve('@docusaurus/plugin-google-analytics')],
+  plugins: [
+    require.resolve('@docusaurus/plugin-google-analytics'),
+    [
+      require.resolve('@docusaurus/plugin-sitemap'),
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
