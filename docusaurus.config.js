@@ -7,8 +7,8 @@ module.exports = {
   organizationName: 'sendilkumarn',
   projectName: 'khipster.dev',
   themeConfig: {
-    image: 'img/khip.svg',
-    twitterImage: 'img/khip.svg',
+    image: 'img/khip.png',
+    twitterImage: 'img/khip.png',
     imageAlt: 'Kotlin Hipster Logo',
     announcementBar: {
       id: 'supportus',
