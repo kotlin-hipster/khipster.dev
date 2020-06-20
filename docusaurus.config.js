@@ -7,8 +7,8 @@ module.exports = {
   organizationName: 'sendilkumarn',
   projectName: 'khipster.dev',
   themeConfig: {
-    image: 'img/khip.png',
-    twitterImage: 'img/khip.png',
+    image: 'img/khip.png?1111',
+    twitterImage: 'img/khip.png?1111',
     twitterImageSrc: 'img/khip.png',
     twitterSite: '@kotlinhipster',
     twitterCreator: '@sendilkumarn',
