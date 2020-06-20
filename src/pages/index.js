@@ -6,6 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import CodeBlock from '@theme/CodeBlock';
+import Head from '@docusaurus/Head';
 
 import styles from './styles.module.css';
 
@@ -43,6 +44,12 @@ function Home() {
       permalink={'/'}
       description={'Set up a modern Full Stack web app by running a single command.'}
     >
+      <Head>
+        <meta name="google-site-verification" content="JjOWWM8cXompIfzqCKn8zJU8qmIsbkwfwJLXznu3HCU" />
+        <meta name="theme-color" content="#ff722c"/>
+        <meta name="msapplication-navbutton-color" content="#ff722c"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="#ff722c"/>
+      </Head>
       <div className={classnames('hero hero--dark', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
