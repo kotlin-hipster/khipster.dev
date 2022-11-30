@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { useDocumentHead, useLocation } from '@builder.io/qwik-city';
 import { Social } from './social';
+import { Vendor } from './vendor';
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
@@ -40,7 +41,10 @@ export const RouterHead = component$(() => {
       <meta name="description" content="Kotlin based Spring boot application generator" />
 
       {import.meta.env.PROD && (
+        <>
           <Social title={title} description={description} href={href} />
+          <Vendor />
+        </>
       )}
 
       {/* other meta */}
