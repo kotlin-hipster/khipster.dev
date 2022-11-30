@@ -41,8 +41,10 @@ export const RouterHead = component$(() => {
       <meta name="description" content="Kotlin based Spring boot application generator" />
 
       {import.meta.env.PROD && (
+        <>
           <Social title={title} description={description} href={href} />
           <Vendor />
+        </>
       )}
 
       {/* other meta */}
