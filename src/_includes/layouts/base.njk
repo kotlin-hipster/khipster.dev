@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title or site.title }}</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate icon" href="/favicon.ico">
+
+  <meta name="google-site-verification" content="{{ site.googleVerification }}">
+  <meta name="theme-color" content="#7F52FF">
+  <meta name="application-name" content="{{ site.siteName }}">
+  <meta name="msapplication-TileColor" content="#7F52FF">
+  <meta name="msapplication-navbutton-color" content="#7F52FF">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml?v=3">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#7F52FF">
+  <meta name="apple-mobile-web-app-title" content="{{ site.siteName }}">
+  <meta name="description" content="{{ description or site.description }}">
+
+  <!-- OG metas -->
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{% if title and title != 'KHipster' %}{{ title }} - KHipster{% else %}{{ site.siteName }}{% endif %}">
+  <meta property="og:description" content="{{ socialDescription or site.socialDescription }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.ogImage }}">
+  <meta property="og:image:alt" content="{{ site.ogImageAlt }}">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="418">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="khipster.dev">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ site.twitter }}">
+  <meta name="twitter:creator" content="{{ site.twitterCreator }}">
+  <meta name="twitter:title" content="{% if title and title != 'KHipster' %}{{ title }} - KHipster{% else %}{{ site.siteName }}{% endif %}">
+  <meta name="twitter:description" content="{{ socialDescription or site.socialDescription }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.ogImage }}">
+  <meta name="twitter:image:alt" content="{{ site.ogImageAlt }}">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ site.gtmId }}');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta name="monetization" content="{{ site.monetization }}">
+  <link rel="manifest" href="/manifest.json">
+
+  <link rel="stylesheet" href="/global.css">
+</head>
+<body lang="en">
+  {% include "components/header.njk" %}
+  <main class="flex-auto flex-col items-center justify-center">
+    {{ content | safe }}
+  </main>
+  {% include "components/footer.njk" %}
+</body>
+</html>

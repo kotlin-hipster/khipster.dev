@@ -1,0 +1,18 @@
+export default {
+  title: "Welcome to KHipster",
+  siteName: "KHipster - Kotlin Hipster",
+  description: "Kotlin based Spring boot application generator",
+  socialDescription: "Kotlin based Spring boot application generator 🎉!",
+  url: "https://khipster.dev",
+  author: "sendilkumarn",
+  authorUrl: "https://sendilkumarn.com",
+  twitter: "@kotlinhipster",
+  twitterCreator: "@sendilkumarn",
+  github: "https://github.com/jhipster/jhipster-kotlin",
+  jhipster: "https://jhipster.tech",
+  ogImage: "/khip.png",
+  ogImageAlt: "Image of KHipster logo",
+  gtmId: "GTM-KFG7BF8",
+  googleVerification: "JjOWWM8cXompIfzqCKn8zJU8qmIsbkwfwJLXznu3HCU",
+  monetization: "$ilp.uphold.com/g93yjjNfykrj",
+};
